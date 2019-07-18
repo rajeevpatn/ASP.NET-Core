@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  myfirstazurewebappnew:
+    image: ${DOCKER_REGISTRY-}myfirstazurewebappnew
+    build:
+      context: .\myFirstAzureWebAppNew
+      dockerfile: Dockerfile
